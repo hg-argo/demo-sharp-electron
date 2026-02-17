@@ -2,6 +2,8 @@
 
 This is a repro repository for an issue regarding Electron Forge and Sharp library.
 
+Issue: https://github.com/electron/forge/issues/4144
+
 ## Objective
 
 Make a desktop Electron app for Windows and MacOS able to process images using the Sharp library.
