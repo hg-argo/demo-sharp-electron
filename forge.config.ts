@@ -55,6 +55,13 @@ const config: ForgeConfig = {
       [FuseV1Options.EnableEmbeddedAsarIntegrityValidation]: true,
       // [FuseV1Options.OnlyLoadAppFromAsar]: true,
     }),
+    {
+      name: '@timfish/forge-externals-plugin',
+      config: {
+        externals: ['sharp'],
+        includeDeps: true,
+      },
+    }
   ],
 };
 

@@ -4,6 +4,8 @@ This is a repro repository for an issue regarding Electron Forge and Sharp libra
 
 Issue: https://github.com/electron/forge/issues/4144
 
+> A workaround has been provided by [samwisekind](https://github.com/electron/forge/issues/4144#issuecomment-3921605268), which recommended to use [`forge-externals-plugin`](@timfish/forge-externals-plugin). Even if the docs only mention *Webpack*, it also works fine with *Vite*.
+
 ## Objective
 
 Make a desktop Electron app for Windows and MacOS able to process images using the Sharp library.
